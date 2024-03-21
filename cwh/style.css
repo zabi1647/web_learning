@@ -1,89 +1,11 @@
-body{
-    background-color: lightgreen;
-    color: black;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
+header > ul{
+    list-style: none;
+    display: flex;
+    padding-left: 20px;
+    
 }
-
-h2 {
-    background-color: lightblue;
-    color: white;
-    padding: 10px;
-    margin: 10px;
-}
-
-
-
-table {
-    border: 1px solid;
-    border-collapse: collapse;
-    background-color: lightblue;
-    color: white;
-    padding: 10px;
-    margin: 10px;
-    cellpadding: 10px;
-    cellspacing: 10px;
-}
-
-form {
-    background-color: lightblue;
-    color: white;
-    padding: 10px;
-    margin: 10px;
-    text-align: left;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-fieldset {
-    background-color: white;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid;
-    border-radius: 5px;
-}
-
-legend {
-    color: blue;
-    padding: 5px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-label {
-    display: inline-block;
-    width: 180px;
-    text-align: right;
-    font-size: 20px;
-    font-weight: bold;
-    padding-right: 10px;
-}
-
-input[type=text], input[type=email], input[type=tel], input[type=password], input[type=date], textarea {
-    width: 300px;
-    padding: 5px;
-    margin: 5px;
-    border: 1px solid;
-    border-radius: 5px;
-}
-
-input[type=radio] {
-    margin: 5px;
-}
-
-button[type=submit], button[type=reset] {
-    padding: 10px;
-    margin: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: blue;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-button[type=submit]:hover, button[type=reset]:hover {
-    background-color: green;
+header > ul > li{
+    padding: 0 10px;
+    list-style-position: inside;
+    list-style-type: disc;
 }
