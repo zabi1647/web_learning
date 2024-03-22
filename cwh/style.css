@@ -1,11 +1,41 @@
-header > ul{
-    list-style: none;
-    display: flex;
-    padding-left: 20px;
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color:blue;
+    ---second-color:red;
+}
+
+@media screen and (max-width:455px){
+    :root{
+        --color:yellow;
+    }
+
+}
+.box{
+    border: 2px solid black;
+    height: 133px;
+    width: 80vw;
+    padding: 3px;
+    margin: 2px;
     
 }
-header > ul > li{
-    padding: 0 10px;
-    list-style-position: inside;
-    list-style-type: disc;
+.box1{
+    background-color: var(--color);
+    
+}
+.box2{
+    background-color: var(---second-color);
+    position: relative;
+    z-index:1;
+    left: 20px;
+    top: 40px;
+    transform: rotate(20deg);
+}
+.box3{
+    background-color: yellow;
+}
+.box4{
+    background-color: pink;
 }
