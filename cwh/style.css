@@ -1,41 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-:root{
-    --color:blue;
-    ---second-color:red;
-}
-
-@media screen and (max-width:455px){
-    :root{
-        --color:yellow;
-    }
-
-}
 .box{
+    height: 32px;
+    width: 32px;
     border: 2px solid black;
-    height: 133px;
-    width: 80vw;
-    padding: 3px;
-    margin: 2px;
+    background-color: red;
     
+    flex-grow: 6;
 }
-.box1{
-    background-color: var(--color);
-    
-}
-.box2{
-    background-color: var(---second-color);
-    position: relative;
-    z-index:1;
-    left: 20px;
-    top: 40px;
-    transform: rotate(20deg);
-}
-.box3{
-    background-color: yellow;
-}
-.box4{
-    background-color: pink;
+
+.container{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    gap: 10px;
+    /* flex-direction:rows; */
+    height: 80vh;
 }

@@ -3,9 +3,7 @@ var  b = 10;
 
 
 
-let x = sum(a,b);
 
-
-function sum(a,b){
-    console.log("This is a function \"north\"");
-}
+const cars = new Array("Saab", "Volvo", "BMW");
+console.log(cars.unshift());
+console.log(cars[0]);
