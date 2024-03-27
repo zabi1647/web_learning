@@ -1,9 +1,9 @@
-var a = 5;
-var  b = 10;
 
-
-
-
-const cars = new Array("Saab", "Volvo", "BMW");
-console.log(cars.unshift());
-console.log(cars[0]);
+function sum(a) {
+    if (a == 1) {
+        return 1;
+    }
+    return a * sum(a - 1);
+}
+let a = 5;
+console.log(sum(a)) ;
